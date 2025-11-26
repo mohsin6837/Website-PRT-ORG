@@ -6,7 +6,8 @@ RUN rm -rf /usr/share/nginx/html/*
 
 # Copy your custom static files
 COPY index.html /usr/share/nginx/html
-COPY img/ /usr/share/nginx/html/
+COPY img/ /usr/share/nginx/html/img
+
 # Expose port
 EXPOSE 80
 
